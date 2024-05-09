@@ -1,0 +1,120 @@
+/* Globales */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Roboto Slab", sans-serif;
+}
+
+body {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  padding: 40px 0;
+  background: url(images/hojas.jpg) repeat center center/ cover; /* Foto de Min An: https://www.pexels.com/es-es/foto/hojas-verdes-1454794/ */
+}
+
+/* Contenedores */
+.contenedor {
+  width: 700px;
+  min-height: 500px;
+  background-color: #DDECE6;
+  padding: 40px;
+  border: 5px solid #AFCFBE;
+  border-radius: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* Textos */
+h1 {
+  font-size: 50px;
+  font-weight: bold;
+}
+
+input {
+  width: 80%;
+  height: 50px;
+  font-size: 25px;
+  margin: 20px;
+  padding: 10px;
+  border: 4px solid #8CC3B2;
+  border-radius: 10px;
+}
+
+/* Botón */
+button {
+  width: 150px;
+  height: 60px;
+  padding: 10px;
+  color: white;
+  background-color: #639878;
+  font-size: 22px;
+  border-radius: 20px;
+  border: none;
+  cursor: pointer;
+  user-select: none;
+  transition-duration: 0.4s
+}
+
+button:hover {
+  background-color: #87B6A0;
+}
+
+/* Lista de tareas */
+#lista-tareas {
+  width: 80%;
+  margin-top: 20px;
+}
+
+.tarea {
+  width: 100%;
+  min-height: 70px;
+  font-size: 25px;
+  padding: 10px;
+  margin-top: 10px;
+  color: white;
+  background-color: #87B6A0;
+  border: 2px solid #639878;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+}
+
+.tarea.completada {
+  text-decoration: line-through;
+  background-color: #acbcb5;
+  border: none;
+}
+
+.tarea p {
+  max-width: 350px;
+}
+
+/* Íconoa */
+i {
+  margin: 5px;
+  padding: 10px;
+  cursor: pointer;
+}
+
+.icono-completar {
+  color: rgba(255, 255, 255, 0.523);
+}
+
+.icono-eliminar {
+  color: rgba(255, 255, 255, 0.523);
+}
+
+.icono-completar:hover {
+  color: rgb(120, 233, 196);
+} 
+.icono-eliminar:hover {
+  color: rgb(207, 102, 102);
+}
