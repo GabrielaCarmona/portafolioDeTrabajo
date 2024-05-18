@@ -80,3 +80,43 @@ body {
   background-color: #4E3F64;
   border-color: #4E3F64;
 }
+
+@media (max-width: 480px) {
+  #cita {
+    font-size: 20px;
+  }
+
+  #poema {
+    font-size: 18px;
+  }
+
+  #btn-cita {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 1600px) {
+  h1 {
+    font-size: 3.5rem;
+  }
+
+  .contenedor {
+    max-width: 800px;
+  }
+
+  #cita {
+    font-size: 48px;
+  }
+
+  #poema {
+    font-size: 45px;
+  }
+
+  #btn-cita {
+    width: 120px;
+    height: 40px;
+    font-size: 15px;
+  }
+}
