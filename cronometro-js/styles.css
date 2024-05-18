@@ -31,8 +31,6 @@ body {
   padding: 20px;
 }
 
-/* .contenedor-interno{} */
-
 /* Cronómetro */
 #cronometro {
   width: 100%;
@@ -68,4 +66,36 @@ body {
 
 .bi {
   color: white;
+}
+
+@media (max-width: 480px) {
+  .contenedor-principal {
+    min-height: 250px;
+  }
+
+  #cronometro {
+    font-size: 40px;
+  }
+
+  .boton {
+    width: 60px;
+    height: 60px;
+    font-size: 40px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .contenedor-principal {
+    min-height: 450px;
+  }
+
+  #cronometro {
+    font-size: 120px;
+  }
+
+  .boton {
+    width: 130px;
+    height: 130px;
+    font-size: 70px;
+  }
 }
