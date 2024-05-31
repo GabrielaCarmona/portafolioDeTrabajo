@@ -1,0 +1,37 @@
+.botonClear {
+  font-size: 1.6em;
+  display: flex;
+  flex: 1;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(207, 102, 102);
+  margin-top: 8px;
+  font-weight: bold;
+  color: white;
+  border-radius: 20px;
+  cursor: pointer;
+  user-select: none;
+}
+
+.botonClear:hover {
+  background-color: rgb(206, 65, 65);
+}
+
+@media (min-width: 280px) {
+    .botonClear {
+      height: 40px;
+    }
+}
+
+@media (min-width: 480px) {
+  .botonClear {
+    height: 50px;
+  }
+}
+
+@media (min-width: 768px) {
+  .botonClear {
+    height: 60px;
+    font-size: 2em;
+  }
+}

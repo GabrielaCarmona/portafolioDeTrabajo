@@ -1,0 +1,32 @@
+.input {
+    border-radius: 50px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    font-weight: bold;
+    font-size: 30px;
+    background-color: #06090A;
+    color: white;
+    padding: 11px;
+    padding-right: 30px;
+}
+
+@media (min-width: 280px) {
+    .input {
+        height: 50px;
+    }
+}
+
+@media (min-width: 480px) {
+    .input {
+        height: 60px;
+    }
+}
+
+@media (min-width: 768px) {
+    .input {
+        height: 75px;
+        font-size: 45px;
+    }
+}
