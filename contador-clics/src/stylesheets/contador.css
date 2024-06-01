@@ -1,0 +1,50 @@
+.contador {
+  padding: 25px;
+  color: darkcyan;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border: 8px solid darkcyan;
+  margin-bottom: 20px;
+}
+
+@media (min-width: 280px) {
+  .contador {
+    width: 150px;
+    height: 150px;
+    font-size: 3rem;
+  }
+}
+
+@media (min-width: 480px) {
+  .contador {
+    width: 250px;
+    height: 250px;
+    font-size: 5rem;
+  }
+}
+
+@media (min-width: 768px) {
+  .contador {
+    width: 350px;
+    height: 350px;
+    padding: 20px;
+    font-size: 8rem;
+  }
+
+  @media (max-height: 600px) {
+    .contador {
+      width: 300px;
+      height: 300px;
+      font-size: 5rem;
+    }
+  }
+}
+
+@media (min-width: 1600px) {
+  .contador {
+    width: 350px;
+    height: 350px;
+    font-size: 6rem;
+  }
+}

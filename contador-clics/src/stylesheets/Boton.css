@@ -1,0 +1,49 @@
+button {
+  font-family: Lato, sans-serif;
+  font-weight: bold;
+  color: white;
+  border: none;
+  border-radius: 15px;
+  margin: 5px;
+  cursor: pointer;
+}
+
+button:hover {
+  background-color: cornflowerblue;
+}
+
+.btnClic {
+  background-color: darkcyan;
+}
+
+.btnReiniciar {
+  background-color: darkcyan;
+}
+
+@media (min-width: 280px) {
+  button {
+    width: 100px;
+    height: 30px;
+    font-size: 1rem;
+    margin-top: 15px;
+  }
+}
+
+@media (min-width: 480px) {
+  button {
+    width: 150px;
+    height: 35px;
+    font-size: 1.5rem;
+    margin-top: 20px;
+  }
+}
+
+@media (min-width: 768px) {
+  button {
+    width: 250px;
+    height: 55px;
+    border-radius: 20px;
+    font-size: 2rem;
+    margin-top: 30px;
+  }
+}

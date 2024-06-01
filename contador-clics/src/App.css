@@ -1,0 +1,102 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+html,
+body {
+    background-color: aliceblue;
+}
+
+.App {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-family: Lato, sans-serif;
+}
+
+.logo-contenedor {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 20px;
+}
+
+.contenedor-principal {
+    margin: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+@media (min-width: 280px) {
+    .logo-contenedor {
+        width: 260px;
+        min-height: 100px;
+        margin: 10px;
+    }
+
+    .logo-G {
+        width: 100%;
+        height: auto;
+    }
+
+    .contenedor-principal {
+        width: 250px;
+        height: auto;
+    }
+}
+
+@media (min-width: 480px) {
+    .logo-contenedor {
+        width: 450px;
+        margin: 20px;
+    }
+
+    .contenedor-principal {
+        width: 250px;
+    }
+}
+
+@media (min-width: 768px) {
+    .logo-contenedor {
+        width: 650px;
+    }
+
+    .contenedor-principal {
+        width: 400px;
+    }
+
+    @media (max-height: 600px) {
+        .logo-contenedor {
+            width: 350px;
+        }
+
+        .contenedor-principal {
+            margin-top: 50px;
+        }
+    }
+}
+
+@media (min-width: 1200px) {
+    .logo-contenedor {
+        width: 450px;
+    }
+
+    .contenedor-principal {
+        margin-top: 50px;
+    }
+}
+
+@media (min-width: 1600px) {
+    .logo-contenedor {
+        width: 550px;
+    }
+
+    .contenedor-principal {
+        margin-top: 50px;
+    }
+}
