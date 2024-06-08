@@ -1,0 +1,12 @@
+.lista-contenedor {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 15px;
+}
+
+@media (min-width: 1200px) {
+    .lista-contenedor {
+      margin-top: 25px;
+    }
+}

@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  color: white;
+  background-color: #F5F6F8;
+  font-family: Lato, sans-serif;
+}
+
+h1 {
+  color: #79973D;
+  font-size: 25px;
+  font-family: Roboto, sans-serif;
+  text-align: center;
+  margin: 20px 0;
+}
+
+.app-tareas {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.logoG-contenedor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.tareas-contenedor {
+  background-color: rgb(242, 237, 183);
+  border-radius: 26px;
+}
+
+@media (min-width: 280px) {
+  .logoG-contenedor {
+    width: 250px;
+    margin: 10px;
+  }
+
+  .logoG {
+    width: 100%;
+    height: auto;
+  }
+
+  .tareas-contenedor {
+    width: 250px;
+    min-height: 300px;
+    padding: 5px;
+    margin: 5px;
+  }
+}
+
+@media (min-width: 480px) {
+  .logoG-contenedor {
+    width: 370px;
+    margin: 15px;
+  }
+
+  .tareas-contenedor {
+    width: 400px;
+    min-height: 350px;
+    padding: 10px;
+    margin: 10px;
+  }
+}
+
+@media (min-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+
+  .logoG-contenedor {
+    margin: 20px 150px;
+  }
+
+  .tareas-contenedor {
+    width: 700px;
+    min-height: 550px;
+    padding: 20px;
+    margin: 20px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .tareas-contenedor {
+    width: 900px;
+    padding: 25px;
+    margin: 25px;
+  }
+}
+
+@media (min-width: 1600px) {
+  .tareas-contenedor {
+    width: 80vmax;
+  }
+}
